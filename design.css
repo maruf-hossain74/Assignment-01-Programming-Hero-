@@ -1,3 +1,7 @@
+.font-open-sens {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +23,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-nav .button {
+nav .button, #hero-banner .start-build-button {
     background-color: #469165;
     border: none;
     border-radius: 5px;
@@ -42,7 +46,59 @@ nav .menu a{
     color: black;
     text-decoration: none;
 }
-.font-open-sens {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+
+#hero-banner{
+    max-width: 1600px;
+    height: 674px;
+    background-image: url("https://github.com/maruf-hossain74/Assignment-01-Programming-Hero-/blob/main/assets/hero-bg.png?raw=true");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding: 12% 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero-banner .banner-token {
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 50px;
+    color: #469165;
+    height: 32px;
+    border-bottom: 42px;
+    width: 250px;
+    font-size: 16px;
+}
+#hero-banner .banner-head1 {
+    color: white;
+    font-size: 72px;
+}
+#hero-banner .banner-head2 {
+    color: #469165;
+    font-size: 72px;
+}
+#hero-banner .banner-description {
+    color: white;
+    font-size: 16px;
+}
+
+
+#hero-banner .start-build-button {
+    height: 44px;
+    width: 250px;
+    padding: 10x 15px;
+}
+
+#hero-banner .see-how-button {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    height: 44px;
+    width: 250px;
+    padding: 10x 15px;
 }
