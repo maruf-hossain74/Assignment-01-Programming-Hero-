@@ -73,7 +73,7 @@ nav .menu a{
     color: #469165;
     height: 32px;
     border-bottom: 42px;
-    width: 230px;
+    width: 220px;
     font-size: 16px;
 }
 #hero-banner .banner-head1 {
@@ -153,7 +153,7 @@ nav .menu a{
 
 #note-section .scattered-notes, .bookmark-overload, .no-idea-connections, .forgetting-what-you-learned {
     background-color: #f7f7f7;
-    max-width: 322px;
+    max-width: 280px;
     min-height: 300px;
     border-radius: 5%;
     flex-direction: column;
