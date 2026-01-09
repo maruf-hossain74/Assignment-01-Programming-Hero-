@@ -234,3 +234,30 @@ nav .menu a{
 .get-early-button {
     box-shadow: 2px 2px 5px #c1bfc1;
 }
+.footer {
+    max-width: 1600px;
+    min-height: 348px;
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.footer .logo-link {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer .footer-logo {
+    width: 350px;
+}
+
+.footer .social {
+    width: 220px;
+}
+.footer .copyright {
+    text-align: center;
+    color: white;
+}
