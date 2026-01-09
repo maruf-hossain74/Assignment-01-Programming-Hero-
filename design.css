@@ -143,7 +143,7 @@ nav .menu a{
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 
@@ -176,4 +176,42 @@ nav .menu a{
 .note-text {
     font-size: 24px;
     font-weight: bold;
+}
+
+
+.second-brain-section {
+    padding: 120px;
+    border-color: #001931;
+    max-width: 1600px;
+    min-height: 880px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.second-brain-document {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.second-brain-head {
+    color: #30B868;
+    font-size: 16px;
+}
+.second-brain-title {
+    color: #001931;
+    font-size: 39px;
+    font-weight: bold;
+}
+.second-brain-caption {
+    color: #627382;
+    font-size: 16px;
+    display: flex;
+}
+.second-brain-solutions {
+    list-style-type: none;
+}
+.fa-solid.fa-circle-check {
+    color: #30B868;
 }
