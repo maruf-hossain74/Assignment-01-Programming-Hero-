@@ -24,7 +24,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-nav .button, #hero-banner .start-build-button {
+nav .button, #hero-banner .start-build-button, .get-early-button {
     background-color: #469165;
     border: none;
     border-radius: 5px;
@@ -126,7 +126,7 @@ nav .menu a{
     text-align: center;
 }
 
-#note-section .note-caption {
+#note-section .note-caption , .easy-access-caption {
     color: #627382;
     font-size: 16px;
     max-width: 1360px;
@@ -214,4 +214,23 @@ nav .menu a{
 }
 .fa-solid.fa-circle-check {
     color: #30B868;
+}
+
+
+.easy-access-section {
+    max-width: 1600px;
+    min-height: 507px;
+    padding: 0px 120px 120px 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.button-terms, .announcement {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.get-early-button {
+    box-shadow: 2px 2px 5px #c1bfc1;
 }
