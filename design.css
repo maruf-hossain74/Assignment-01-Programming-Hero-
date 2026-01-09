@@ -91,14 +91,14 @@ nav .menu a{
 
 
 #hero-banner .start-build-button {
+    background-color:#30B868;
     height: 44px;
     width: 250px;
-    padding: 10x 15px;
+    /* padding: 10px 15px; */
 }
 
 #hero-banner .see-how-button {
     background-color: transparent;
-    border-color: white;
     border-radius: 5px;
     color: white;
     font-size: 16px;
@@ -108,8 +108,11 @@ nav .menu a{
 }
 
 #note-section {
+    max-width: 1600px;
+    min-height: 448px;
     display: flex;
     flex-direction: column;
+    padding: 0px 120px 120px 120px;
     gap: 15px;
 }
 
@@ -138,12 +141,13 @@ nav .menu a{
 }
 
 #note-section .note-wrapper {
+
     display: flex;
     gap: 24px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 
@@ -236,28 +240,64 @@ nav .menu a{
 }
 .footer {
     max-width: 1600px;
-    min-height: 348px;
-    padding: 120px 120px 30px 120px;
+    padding: 120px 120px 30px;
     background-color: #001931;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 80px;
 }
 
-.footer .logo-link {
+.footer-top {
     display: flex;
     justify-content: space-between;
-    color: white;
+    align-items: center;
 }
 
-.footer .footer-logo {
-    width: 350px;
+.footer-logo img {
+    width: 160px;
 }
 
-.footer .social {
-    width: 220px;
+.social {
+    text-align: right;
 }
+
+.social-title {
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.social-logo {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+}
+
+.social-logo a {
+    color: #ffffff;
+    font-size: 22px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff4d;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
 .footer .copyright {
     text-align: center;
-    color: white;
+    font-size: 14px;
+    color: #ffffffb3;
+    border-top: 1px solid #ffffff26;
+    padding-top: 20px;
 }
+
+* button:hover, a:hover {
+    transform: translateY(-3px);
+    background-color: #F95555;
+    border-color: #F95555;
+}
+
